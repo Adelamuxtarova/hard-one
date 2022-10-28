@@ -1,31 +1,44 @@
-/* body{
-    margin: 0 auto;
-    padding: 0;
-
-} */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
-.desktop{
+
+.body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.desktop {
     width: 1440px;
     height: 2335px;
-    /* top: -127px;
-    left: -406px; */
     background-color: #ffffff;
     position: relative;
 }
 
-.header{
+.main {
+    height: 855.3743896484375px;
+    width: 1440px;
+    top: -2.09%;
+    bottom: 0.01%;
+    position: relative;
+}
+
+.header {
     position: absolute;
     min-width: 1280px;
     min-height: 49px;
     left: 80px;
     top: 65px;
-    /* margin-top: 65px;
-    margin-left: 80px;
-    margin-right: 80px; */
     margin-left: 24px;
 
 }
+
+.wekil {
+    position: absolute;
+    top: -73px;
+    left: -87px;
+    width: 1349px;
+    height: 683px;
+}
+
 .linkler {
     position: absolute;
     display: flex;
@@ -35,109 +48,16 @@
     left: 1007px;
     top: 15px;
 }
-.yazi1{
-    width: 94px;
-    height: 49px;
-    left: 56px;
-}
-.F {
+
+.yazi1 {
     position: absolute;
-    width: 23.52px;
-    height: 48.63px;
-    left: 56.01px;
-    top: -10.59px;
-    color: black;
-    font-size: 50px;
-    font-family: 'Raleway';
-    font-weight: bold;
+    top: -108px;
+    left: -78px;
+    width: 1244px;
+    height: 903px;
 }
 
-.y {
-    position: absolute;
-    width: 25.39px;
-    height: 49.1px;
-    left: 83.1px;
-    top: -8.78px;
-    color: black;
-    font-size: 50px;
-    font-family: 'Raleway';
-    font-weight: bold;
-}
-
-.l {
-    font-size: 50px;
-    position: absolute;
-    width: 9.87px;
-    height: 48.68px;
-    left: 105.39px;
-    top: -10.97px;
-    font-family: 'Raleway';
-    font-weight: bold;
-}
-
-.o {
-    font-size: 50px;
-    position: absolute;
-    width: 27.49px;
-    height: 27.11px;
-    left: 117.49px;
-    top: -11.4px;
-    font-family: 'Raleway';
-    font-weight: bold;
-}
-
-
-/* .fill1{
-    position: absolute;
-    width: 56px;
-    height: 46px;
-    left: 80px;
-    top: 66px;
-    float: left;
-    
-} */
-/* .path1{
-    border-width: 56px;
-    height: 17.79px;
-    top: 94.21px;
-    left: 80px;
-    background-color:#bdbafa;
-    position: absolute;
-    float: left;
-
-}
-.path2{
-    position: absolute;
-    border-width: 56px;
-    height: 17.79px;
-    left: 80px;
-    top: 84.5px;
-    background-color: #bdbafa;
-    float: left;
-}
-.path3{
-    position: absolute;
-    width: 35.75px;
-    height: 16.79px;
-    left: 90.08px;
-    top: 70.79px;
-    background-color: #bdbafa;
-    float: left;
-    border-width: 35.75px;
-    
-}
-.path4{
-    position: absolute;
-    border-width: 56px;
-    height: 26.38px;
-    left: 80px;
-    top: 66px;
-    background-color: #bdbafa;
-    float: left;
-
-
-} */
-.hero{
+.hero {
     position: absolute;
     width: 1280px;
     height: 474px;
@@ -145,10 +65,11 @@
     top: 239px;
     margin-top: -278px;
 }
-.yazi{
+
+.yazi {
     width: 525px;
     height: 72px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
@@ -159,15 +80,17 @@
     margin-top: 15px;
 
 }
-.wekil{
+
+.wekil2 {
     position: absolute;
     left: 720px;
     top: 239px;
 }
-.yazi2{
+
+.yazi2 {
     width: 606px;
     height: 120px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 40px;
     font-weight: 700;
     line-height: 60px;
@@ -177,20 +100,22 @@
     margin-top: 300px;
     margin-left: 65px;
 }
-.duyme{
+
+.duyme {
     width: 400px;
     height: 72px;
     position: absolute;
     left: 62px;
     top: 521px;
-    
+
 }
-#fname{
+
+#fname {
     width: 400px;
     height: 45px;
     box-sizing: border-box;
     position: absolute;
-    color:  #C2C2C2;
+    color: #C2C2C2;
     left: 0%;
     right: 0%;
     top: 0%;
@@ -199,28 +124,127 @@
     box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
     border-radius: 3.125px;
 }
-#submit{
+
+#submit {
     position: absolute;
-height: 45px;
-width: 200px;
-left: 416px;
-top: 0px;
+    height: 45px;
+    width: 200px;
+    left: 416px;
+    top: 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
+    color: #FFFFFF;
 
-color: #FFFFFF;
-
-background: #2F65F8;
-box-shadow: 2px 3px 6px #2F65F8;
-border-radius: 3.125px;
-border-color: #2F65F8;
+    background: #2F65F8;
+    box-shadow: 2px 3px 6px #2F65F8;
+    border-radius: 3.125px;
+    border-color: #2F65F8;
 
 
 }
 
+.rectangle {
+    height: 855.3743896484375px;
+    width: 1440px;
+    border-radius: 0px;
+    position: relative;
+    background-color: #F8F8FE;
+    bottom: 165px;
 
-    
+
+}
+
+.yazi3 {
+    width: 650px;
+    height: 47px;
+    top: 123px;
+    left: 121px;
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    z-index: 5;
+
+}
+
+.yazi4 {
+    position: absolute;
+    left: 125px;
+    right: 56.71%;
+    top: 31.38%;
+    bottom: 62.89%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    z-index: 3;
+
+
+    color: #07043B;
+
+}
+
+.yazi5 {
+    position: absolute;
+    left: 125px;
+    right: 56.71%;
+    top: 39.02%;
+    bottom: 55.25%;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #07043B;
+    z-index: 2;
+
+
+}
+
+.yazi6 {
+    position: absolute;
+    height: 22px;
+    left: 125px;
+    right: 12.05%;
+    top: calc(50% - 22px/2 - 2.5px);
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    z-index: 1;
+    text-decoration: underline;
+
+
+
+    color: #3DA08F;
+
+
+}
+
+.kvadrat {
+    height: 1081px;
+    width: 2061px;
+    box-shadow: 0px 0px 10px 5px rgb(56 56 56 / 5%);
+    border-radius: 5px;
+    position: absolute;
+    top: 292px;
+    left: -215px;
+    z-index: 0;
+}
+
+.wekil3 {
+    position: absolute;
+    right: -4px;
+    top: 191px;
+}
